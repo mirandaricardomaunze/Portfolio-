@@ -63,9 +63,9 @@ const Projects = () => {
 
   return (
     <section id="projects" className="section bg-white">
-      <div className="container">
+      <div className="container ">
         <motion.h2 
-          className="section-title"
+          className="section-title text-dark"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
