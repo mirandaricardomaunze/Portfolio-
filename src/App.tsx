@@ -10,7 +10,7 @@ import './index.css'
 function App() {
   // Efeito para aplicar o título da página
   useEffect(() => {
-    document.title = 'Miranda Maunze | Desenvolvedor Full Stack'
+    document.title = 'Miranda Maunze | React & Node.js Developer'
   }, [])
 
   return (

@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faCode, faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faCode, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 
 const About = () => {
   return (
     <section id="about" className="section bg-dark">
       <div className="container">
-        <motion.h2 
+        <motion.h2
           className="section-title"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -15,7 +15,7 @@ const About = () => {
         >
           Sobre Mim
         </motion.h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -31,18 +31,16 @@ const About = () => {
                 <h3 className="text-xl font-bold">Quem Sou</h3>
               </div>
               <p className="text-gray-300 mb-4">
-                Sou um desenvolvedor full stack apaixonado por criar aplicações web modernas e responsivas. 
-                Com experiência em React.js, Node.js, ASP.NET Core e outras tecnologias, busco sempre entregar 
-                soluções de alta qualidade e com excelente experiência do usuário.
+                Com experiência sólida em **React** e **Node.js**, aplico **Arquitetura MVC** e uso de **IA (Antigravity)** para entregar softwares de alta performance e código limpo.
               </p>
               <p className="text-gray-300">
-                Minha abordagem combina habilidades técnicas sólidas com uma forte compreensão das 
-                necessidades do usuário, resultando em produtos que não apenas funcionam bem, mas também 
-                proporcionam uma experiência agradável.
+                Minha abordagem combina habilidades técnicas sólidas com uma forte compreensão das
+                necessidades do usuário, resultando em produtos que não apenas funcionam bem, mas também
+                proporcionam uma experiência excepcional.
               </p>
             </div>
           </motion.div>
-          
+
           <motion.div
             className="space-y-6"
             initial={{ opacity: 0, x: 30 }}
@@ -55,13 +53,13 @@ const About = () => {
                 <div className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white mr-3">
                   <FontAwesomeIcon icon={faCode} />
                 </div>
-                <h3 className="text-lg font-bold">Desenvolvimento Web</h3>
+                <h3 className="text-lg font-bold">Tecnologias Principais</h3>
               </div>
               <p className="text-gray-300">
-                Especializado em criar interfaces modernas com React.js e implementar APIs robustas com ASP.NET Core e Node.js.
+                React.js, Node.js, API REST, NestJS, IA & Antigravity, Arquitetura MVC, Java Spring Boot e React Native.
               </p>
             </div>
-            
+
             <div className="card p-4">
               <div className="flex items-center mb-2">
                 <div className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white mr-3">
@@ -70,25 +68,13 @@ const About = () => {
                 <h3 className="text-lg font-bold">Experiência Profissional</h3>
               </div>
               <p className="text-gray-300">
-                Mais de 5 anos de experiência desenvolvendo aplicações web e desktop para diversos setores.
-              </p>
-            </div>
-            
-            <div className="card p-4">
-              <div className="flex items-center mb-2">
-                <div className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white mr-3">
-                  <FontAwesomeIcon icon={faGraduationCap} />
-                </div>
-                <h3 className="text-lg font-bold">Formação</h3>
-              </div>
-              <p className="text-gray-300">
-                Bacharel em Ciência da Computação com especialização em Desenvolvimento Web.
+                Desenvolvimento de aplicações web modernas, sistemas desktop robustos e aplicativos mobile de alta performance.
               </p>
             </div>
           </motion.div>
         </div>
-        
-        <motion.div 
+
+        <motion.div
           className="mt-12 text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

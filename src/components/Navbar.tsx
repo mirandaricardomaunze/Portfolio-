@@ -34,8 +34,8 @@ const Navbar = () => {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-darker/90 backdrop-blur-sm shadow-lg py-2' : 'bg-transparent py-4'}`}>
       <div className="container flex justify-between items-center">
-        <a href="#home" className="text-2xl font-bold text-primary">
-          Miranda<span className="text-secondary"> Maunze</span>
+        <a href="#home" className="text-2xl font-black tracking-tighter text-light hover:text-primary transition-colors">
+          Miranda <span className="text-primary">Maunze</span>
         </a>
 
         {/* Desktop Menu */}
@@ -63,9 +63,8 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 w-full bg-darker/95 backdrop-blur-sm shadow-lg transition-all duration-300 ${
-          isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
-        }`}
+        className={`md:hidden absolute top-full left-0 w-full bg-darker/95 backdrop-blur-sm shadow-lg transition-all duration-300 ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
+          }`}
       >
         <div className="container py-4 flex flex-col space-y-4">
           {navLinks.map((link) => (

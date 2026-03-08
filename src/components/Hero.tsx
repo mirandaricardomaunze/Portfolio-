@@ -10,22 +10,21 @@ const Hero = () => {
       backgroundImage: `url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%232d2d2d' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='1'/%3E%3C/g%3E%3C/svg%3E")`
     }}>
       <div className="container">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-          <motion.div 
-            className="md:w-1/2"
+        <div className="flex flex-col md:flex-row items-center justify-between gap-16 lg:gap-24">
+          <motion.div
+            className="md:w-3/5"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              Olá, eu sou <span className="text-primary">Miranda Maunze</span>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
+              Olá, eu sou <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary">Miranda Maunze</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl text-gray-300 mb-6">
-              Desenvolvedor <span className="text-secondary">Full Stack</span>
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-300 mb-8 max-w-2xl">
+              Desenvolvedor <span className="text-secondary-light">Full Stack</span> especializado em <span className="text-primary-light">React.js</span> e <span className="text-primary-light">Node.js</span>
             </h2>
-            <p className="text-lg text-gray-400 mb-8">
-              Especializado em React.js, Node.js, ASP.NET Core, Windows Forms, Bootstrap, CSS e HTML.
-              Criando soluções web modernas e responsivas.
+            <p className="text-xl text-gray-400 mb-10 leading-relaxed max-w-xl">
+              Especialista em React, Node.js, **APIs REST** e arquiteturas modernas. Pioneiro no uso de **IA (Antigravity)** para acelerar o desenvolvimento de soluções escaláveis para Web, Desktop e Mobile.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#contact" className="btn btn-primary">
@@ -36,17 +35,17 @@ const Hero = () => {
               </a>
             </div>
             <div className="flex mt-8 space-x-4">
-              <a 
-                href="https://github.com/" 
-                target="_blank" 
+              <a
+                href="https://github.com/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl text-gray-400 hover:text-primary transition-colors"
               >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
-              <a 
-                href="https://linkedin.com/" 
-                target="_blank" 
+              <a
+                href="https://linkedin.com/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl text-gray-400 hover:text-primary transition-colors"
               >
@@ -54,8 +53,8 @@ const Hero = () => {
               </a>
             </div>
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="md:w-1/2"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -67,14 +66,14 @@ const Hero = () => {
               <div className="absolute inset-8 bg-darker rounded-full shadow-lg overflow-hidden border border-gray-800">
                 {/* Placeholder para foto de perfil */}
                 <div className="w-full h-full bg-gradient-to-br from-primary/30 to-secondary/30 flex items-center justify-center text-4xl font-bold text-white">
-                  <img src={profilfImage} alt="Miranda"  />
+                  <img src={profilfImage} alt="Miranda Maunze" />
                 </div>
               </div>
             </div>
           </motion.div>
         </div>
-        
-        <motion.div 
+
+        <motion.div
           className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-center"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
