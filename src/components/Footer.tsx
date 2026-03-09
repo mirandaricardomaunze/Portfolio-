@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faHeart } from '@fortawesome/free-solid-svg-icons';
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -84,7 +84,7 @@ const Footer = () => {
 
         <div className="text-center mt-6 text-gray-500 text-sm">
           <p>
-            Desenvolvido com <FontAwesomeIcon icon={faHeart} className="text-red-500 mx-1" /> usando React.js e Tailwind CSS
+            Desenvolvido  usando React.js e Tailwind CSS
           </p>
         </div>
       </div>

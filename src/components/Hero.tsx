@@ -24,7 +24,7 @@ const Hero = () => {
               Desenvolvedor <span className="text-secondary-light">Full Stack</span> especializado em <span className="text-primary-light">React.js</span> e <span className="text-primary-light">Node.js</span>
             </h2>
             <p className="text-xl text-gray-400 mb-10 leading-relaxed max-w-xl">
-              Especialista em React, Node.js, **APIs REST** e arquiteturas modernas. Pioneiro no uso de **IA (Antigravity)** para acelerar o desenvolvimento de soluções escaláveis para Web, Desktop e Mobile.
+              Especialista em React, Node.js, APIs REST e arquiteturas modernas.  Utilizo IA (Antigravity) para acelerar o desenvolvimento de soluções escaláveis para Web, Desktop e Mobile.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#contact" className="btn btn-primary">

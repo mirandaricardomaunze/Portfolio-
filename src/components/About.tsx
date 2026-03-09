@@ -31,7 +31,7 @@ const About = () => {
                 <h3 className="text-xl font-bold">Quem Sou</h3>
               </div>
               <p className="text-gray-300 mb-4">
-                Com experiência sólida em **React** e **Node.js**, aplico **Arquitetura MVC** e uso de **IA (Antigravity)** para entregar softwares de alta performance e código limpo.
+                Com experiência sólida em React e Node.js, aplico Arquitetura MVC e uso de IA (Antigravity) para entregar softwares de alta performance e código limpo.
               </p>
               <p className="text-gray-300">
                 Minha abordagem combina habilidades técnicas sólidas com uma forte compreensão das
